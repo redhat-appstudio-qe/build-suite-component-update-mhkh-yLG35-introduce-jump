@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-parent-labn
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-gdcd-tenant/build-suite-component-update-mhkh/multi-component-parent-labn@sha256:9f1221efc5b982cbee002b497fe14cd701d77ac77cc728d9993126f5380d9c6f
         imagePullPolicy: Always
         name: container-image
         ports:
