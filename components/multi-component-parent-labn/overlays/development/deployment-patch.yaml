@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-component-parent-labn
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-gdcd-tenant/build-suite-component-update-mhkh/multi-component-parent-labn@sha256:9f1221efc5b982cbee002b497fe14cd701d77ac77cc728d9993126f5380d9c6f
+        name: container-image
+        resources: {}
+status: {}
